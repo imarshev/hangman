@@ -15,15 +15,15 @@ To run the program, you must have the Ruby interpreter installed on your compute
 
 1. Copy the program from the repository: 
 ```
-    $ git clone https://github.com/imarshev/15.5.hangman.git
+  $ git clone https://github.com/imarshev/15.5.hangman.git
 ```
 2. Go to the folder with the program:
 ```
-    $ cd 15.5.hangman
+  $ cd 15.5.hangman
 ```
 3. Run the program:
 ```
-    $ ruby main.rb
+  $ ruby main.rb
 ```
 ### Adding new words
 1. Using File Explorer (Windows) or Finder (MacOS), go to the "data" folder and open the "words.txt" file
