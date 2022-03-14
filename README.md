@@ -15,11 +15,11 @@ To run the program, you must have the Ruby interpreter installed on your compute
 
 1. Copy the program from the repository: 
 ```
-$ git clone https://github.com/occmium/gallows.git
+    $ git clone https://github.com/occmium/gallows.git
 ```
 2. go to the folder with the program:
 ```
-$ cd gallows
+    $ cd gallows
 ```
 ### Adding new words
 1. Using File Explorer (Windows) or Finder (MacOS), go to the "data" folder and open the "words.txt" file
