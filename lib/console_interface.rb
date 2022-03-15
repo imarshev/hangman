@@ -1,6 +1,6 @@
 class ConsoleInterface
   FIGURES =
-    Dir[ + "#{__dir__}/../data/figures/*.txt"].
+      Dir[File.join(__dir__, "..", "data", "figures", "*.txt")].
       sort.
       map {|file_name| File.read(file_name)}
 
@@ -10,10 +10,10 @@ class ConsoleInterface
 
   def print_out
     puts <<~GAME_STATUS
-  СЛОВО: #{word_to_show}
-  #{figure}
-  ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
-  У вас осталось ошибок: #{@game.errors_allowed}
+    СЛОВО: #{word_to_show}
+    #{figure}
+    ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
+    У вас осталось ошибок: #{@game.errors_allowed}
 
   GAME_STATUS
 
