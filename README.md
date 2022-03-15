@@ -26,7 +26,7 @@ To run the program, you must have the Ruby interpreter installed on your compute
   $ ruby main.rb
 ```
 ### Adding new words
-1. Using File Explorer (Windows) or Finder (MacOS), go to the "data" folder and open the "words.txt" file
+1. Using File Explorer (Windows) or Finder (MacOS), go to the `data` folder and open the `words.txt` file
 2. Add the words you want to use in the game. Each word is on a separate line.
 
 
