@@ -10,12 +10,11 @@ class ConsoleInterface
 
   def print_out
     puts <<~GAME_STATUS
-    СЛОВО: #{word_to_show}
-    #{figure}
-    ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
-    У вас осталось ошибок: #{@game.errors_allowed}
-
-  GAME_STATUS
+      СЛОВО: #{word_to_show}
+      #{figure}
+      ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
+      У вас осталось ошибок: #{@game.errors_allowed}
+      GAME_STATUS
 
     if @game.won?
       puts "🥳 Поздравляем, вы выиграли!"

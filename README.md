@@ -13,7 +13,7 @@ The user must guess the word. He enters one letter at a time. There are 7 chance
 ### Usage
 To run the program, you must have the Ruby interpreter installed on your computer. You need to call the console (if you are using Windows) or the terminal (if you are using MacOS).
 
-1. Copy the program from the repository: 
+1. Copy the program from the repository:
 ```
   $ git clone https://github.com/imarshev/hangman.git
 ```
