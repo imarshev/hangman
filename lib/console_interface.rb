@@ -1,8 +1,8 @@
 class ConsoleInterface
   FIGURES =
-      Dir[File.join(__dir__, "..", "data", "figures", "*.txt")].
-      sort.
-      map {|file_name| File.read(file_name)}
+    Dir[File.join(__dir__, "..", "data", "figures", "*.txt")].
+    sort.
+    map {|file_name| File.read(file_name)}
 
   def initialize(game)
     @game = game
@@ -14,8 +14,8 @@ class ConsoleInterface
       #{figure}
       ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
       У вас осталось ошибок: #{@game.errors_allowed}
-      GAME_STATUS
 
+    GAME_STATUS
     if @game.won?
       puts "🥳 Поздравляем, вы выиграли!"
     elsif @game.lost?
