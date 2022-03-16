@@ -15,7 +15,7 @@ class ConsoleInterface
       ОШИБКИ(#{@game.errors_made}): #{errors_to_show}
       У вас осталось ошибок: #{@game.errors_allowed}
 
-    GAME_STATUS
+      GAME_STATUS
     if @game.won?
       puts "🥳 Поздравляем, вы выиграли!"
     elsif @game.lost?
