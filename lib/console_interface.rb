@@ -2,7 +2,7 @@ class ConsoleInterface
   FIGURES =
     Dir[File.join(__dir__, "..", "data", "figures", "*.txt")].
     sort.
-    map {|file_name| File.read(file_name)}
+    map { |file_name| File.read(file_name) }
 
   def initialize(game)
     @game = game
