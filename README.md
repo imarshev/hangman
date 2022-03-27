@@ -19,7 +19,7 @@ To run the program, you must have the Ruby interpreter installed on your compute
 ```
 2. Go to the folder with the program:
 ```
-  $ cd 15.5.hangman
+  $ cd hangman
 ```
 3. Run the program:
 ```
